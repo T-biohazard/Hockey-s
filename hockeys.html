@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cupcake">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,22 +45,23 @@
         <!-- nav -->
         <div class="navbar bg-base-100 mt-16">
             <div class="navbar-start">
-              <a class="btn btn-ghost text-[#131318] fontsans text-6xl ">Hockey's</a>
+              <a class="btn btn-ghost text-[#131318] fontsans text-4xl ">Hockey's</a>
             </div>
             <div class="navbar-center hidden lg:flex fontsans text-4xl">
-              <ul class="menu menu-horizontal px-1">
-                <li class="text-[#FF4240]"><a>Home</a></li>
+              <ul class="menu menu-horizontal px-1 text-xl">
+                <li class="text-[#FF4240] "><a>Home</a></li>
                 <li><a>About</a></li>
                 <li><a>Pages</a></li>
                 <li><a>Blog</a></li>
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <div class="navbar-end fontsans">
+
+            <div class="navbar-end fontsans gap-5">
               <button class="btn btn-ghost btn-circle">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
               </button>
-              <a class="btn">Get Ticket</a>
+              <button class="btn btn-primary text-2xl rounded-xl text-white fontsans border-none bg-orange-500">Get Ticket</button>
             </div>
           </div>
 
@@ -114,45 +115,99 @@
     <!-- body part 1 Professional Hockeys Club-->
 <main>
   <section class="">
-    <div class=" text-center fontsans">
+    <div class=" text-center fontsans ">
       <h1 class="text-6xl mt-36 mb-8" >Professional Hockeys Club</h1>
       <p class="text-xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit, Consequuntur, vero?</p>
     </div>
   
     <!-- parcentage -->
 
-<div class="grid grid-cols-4 mt-24 text-center">
+<div class="grid lg:grid-cols-4 mt-24 text-center sm:grid-cols-1">
 
 <!-- 87 -->
 <div>
-<div class="text-6xl radial-progress " style="--value:87; --size:12rem;" role="progressbar">87%</div>
-<h3 class="fontsans text-5xl">Prayer Facility</h3>
-<p class="text-xl fontsans">Amet consectetur. Condimentum dignissim adipiscing .</p>
+<div class="text-6xl radial-progress text-red-500" style="--value:87; --size:12rem;" role="progressbar">87%</div>
+<h3 class="fontsans text-5xl  mt-6 ">Prayer Facility</h3>
+<p class="text-xl fontsans mt-6">Amet consectetur. Condimentum dignissim adipiscing .</p>
 </div>
 
 <div>
-<div class="text-6xl radial-progress" style="--value:95; --size:12rem;" role="progressbar">95%</div>
-<h3 class="fontsans text-5xl">Experienced Coach</h3>
-<p class="text-xl fontsans">Amet consectetur. Condimentum dignissim adipiscing .</p>
+<div class="text-6xl radial-progress text-green-500" style="--value:95; --size:12rem;" role="progressbar">95%</div>
+<h3 class="fontsans text-5xl mt-6">Experienced Coach</h3>
+<p class="text-xl fontsans mt-6">Amet consectetur. Condimentum dignissim adipiscing .</p>
 </div>
 
 <div>
-<div class="text-6xl radial-progress" style="--value:90; --size:12rem;" role="progressbar">90%</div>
-<h3 class="fontsans text-5xl">Senior Player</h3>
-<p class="text-xl fontsans">Amet consectetur. Condimentum dignissim adipiscing .</p>
+<div class="text-6xl radial-progress text-yellow-300" style="--value:90; --size:12rem;" role="progressbar">90%</div>
+<h3 class="fontsans text-5xl mt-6">Senior Player</h3>
+<p class="text-xl fontsans mt-6">Amet consectetur. Condimentum dignissim adipiscing .</p>
 </div>
 
 <div class="text-6xl">
   <div>
-<div class="radial-progress" style="--value:80;  --size:12rem;" role="progressbar">80%</div>
+<div class="radial-progress text-blue-400" style="--value:80;  --size:12rem;" role="progressbar">80%</div>
 </div>
-<h3 class="fontsans text-5xl">Training Ground</h3>
-<p class="text-xl fontsans">Amet consectetur. Condimentum dignissim adipiscing .</p>
+<h3 class="fontsans text-5xl mt-6">Training Ground</h3>
+<p class="text-xl fontsans mt-6">Amet consectetur. Condimentum dignissim adipiscing .</p>
 </div>
 
 </div>
   </section>
 
+
+
+  <!-- program  section -->
+<section>
+  <div class="text-center  mt-36 ">
+    <h3 class="mb-6 text-6xl">Program Section</h3>
+    <p class="text-xl fontsans mt-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem explicabo, aliquam adipisci earum nisi libero?</p>
+  </div>
+
+  <!-- cards 3 -->
+<div class="fontsans ">
+
+<div class="grid lg:grid-cols-2 sm:grid-cols-1 items-center gap-12  mt-12 " >
+
+  <div >
+    <div class="card max-w-3/4 bg-base-100 shadow-xl image-full ">
+      <figure><img class="w-full" src="images/2.png" alt="Shoes" /></figure>
+      <div class="card-body">
+        <h2 class="card-title pt-16 text-3xl text-white">Junior Program</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-start mb-8">
+          <button class="btn btn-primary text-xl rounded-xl text-white fontsans bg-orange-500 border-none">Register Now!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="card  bg-base-100 shadow-xl image-full">
+      <figure><img class="w-full" src="images/3.png" alt="Shoes" /></figure>
+      <div class="card-body">
+        <h2 class="card-title pt-16 text-3xl text-white">Teenager Program</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-start mb-8">
+          <button class="btn btn-primary text-xl rounded-xl text-white fontsans bg-orange-500 border-none ">Register Now!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- solo card -->
+<div class="card w-full  bg-base-100 shadow-xl image-full mt-12">
+  <figure><img class="w-full" src="images/4.png" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title pt-16 text-3xl text-white">Professional Program</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div class="card-actions justify-start mb-8">
+      <button class="btn btn-primary text-xl rounded-xl text-white fontsans bg-orange-500 border-none ">Register Now!</button>
+    </div>
+  </div>
+</div>
+
+</div>
+</section>
 
 
   
